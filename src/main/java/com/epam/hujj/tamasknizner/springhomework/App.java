@@ -1,13 +1,14 @@
 package com.epam.hujj.tamasknizner.springhomework;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class App {
+
+	private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
+	
+	public static void main(String[] args) {
+		LOGGER.debug("Hello World!");
+	}
+
 }
