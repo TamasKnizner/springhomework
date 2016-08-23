@@ -38,7 +38,7 @@ public class HunConfig {
 		Team team = new Team();
 		team.setCoach(ctx.getBean("sebesGusztav", Coach.class));
 		team.setPlayers(players);
-		team.setNationality(TeamNationality.HUNGARIAN);
+		team.setNationality(TeamNationality.HUNGARY);
 		
 		return team;
 	}
